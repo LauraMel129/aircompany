@@ -1,8 +1,8 @@
-const ClassificationLevel  = {
-    UNCLASSIFIED: 'Unclassified',
-    CONFIDENTIAL: 'Confidential',
-    SECRET: 'Secret',
-    TOP_SECRET: 'Top_secret'
+let modelClassificationLevel = {
+    unclassified: 'Unclassified',
+    confidential: 'Confidential',
+    secret: 'Secret',
+    topSecret: 'Top_secret'
 };
 
-module.exports =  ClassificationLevel;
+export default  modelClassificationLevel;
