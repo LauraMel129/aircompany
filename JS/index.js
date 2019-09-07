@@ -1,4 +1,3 @@
-import Plane from './Planes/Plane';
 import militaryPlane from './Planes/militaryPlane';
 import passengerPlane from './Planes/PassengerPlane';
 import Airport, { print } from './Airport';

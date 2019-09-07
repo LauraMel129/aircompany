@@ -1,8 +1,8 @@
 import Plane from './Plane';
 
 class militaryPlane extends Plane {
-    militaryPlaneDetails (model, maxSpeed, maxFlightDistance, maxLoadCapacity, militaryType) {
-        generalMilitaryPlaneDetails(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
+    militaryPlane(model, maxSpeed, maxFlightDistance, maxLoadCapacity, militaryType) {
+        Plane(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
         this.militaryType = militaryType;
     }
     getMilitaryType() {

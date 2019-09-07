@@ -1,6 +1,6 @@
 class Plane {
 
-    planeDetails(model, maxSpeed, maxFlightDistance, maxLoadCapacity) {
+    plane(model, maxSpeed, maxFlightDistance, maxLoadCapacity) {
         this.model = model;
         this.maxSpeed = maxSpeed;
         this.maxFlightDistance = maxFlightDistance;

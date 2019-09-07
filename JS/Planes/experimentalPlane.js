@@ -1,8 +1,8 @@
 import Plane from './Plane';
 
 class experimentalPlane extends Plane {
-   experimentalPLaneDetails(model, maxSpeed, maxFlightDistance, maxLoadCapacity, planeType, classificationLevel)  {
-        generalExperimentalPLaneDetaiels(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
+   experimentalPLane(model, maxSpeed, maxFlightDistance, maxLoadCapacity, planeType, classificationLevel)  {
+        PLane(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
         this._model = model;
         this._maxSpeed = maxSpeed;
         this._maxFlightDistance = maxFlightDistance;

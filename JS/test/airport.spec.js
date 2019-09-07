@@ -4,7 +4,6 @@ import militaryPlane from '../Planes/militaryPlane';
 import passengerPlane from '../Planes/PassengerPlane';
 import Airport from '../Airport';
 import experimentalPlane from '../Planes/experimentalPlane';
-import { UNCLASSIFIED } from '../models/ClassificationLevel';
 
 describe('My Test', () => {
 
@@ -33,7 +32,7 @@ describe('My Test', () => {
         let transportMilitaryPlanes = airport.getTransportMilitaryPlanes();
         let flag = false;
         for (let militaryPlane of transportMilitaryPlanes) {
-            if (militaryPlane.getMilitaryType() === militaryType.typeTransport) {
+            if (militaryPlane.getMilitaryType() == militaryType.typeTransport) {
                 flag = true;
                 break;
             }
@@ -67,7 +66,7 @@ describe('My Test', () => {
         let bomberMilitaryPlanes  = airport.getBomberMilitaryPlanes ();
         let flag = false;
         for (let militaryPlane of bomberMilitaryPlanes) {
-            if (militaryPlane.getMilitaryType() === militaryType.bomber) {
+            if (militaryPlane.getMilitaryType() == militaryType.bomber) {
                 flag = true;
             }
             else{
